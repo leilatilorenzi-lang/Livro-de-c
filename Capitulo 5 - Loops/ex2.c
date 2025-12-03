@@ -2,8 +2,8 @@
 
 int main() {
 
-    int n = 100;
-    for(int i = 0; i <= n; i++) {
+    int n = 49;
+    for(int i = n; i > 0; i--) {
         printf("%d\n", i);
     }
 
