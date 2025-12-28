@@ -1,13 +1,14 @@
 #include <stdio.h>
+#include <string.h>
 
 int len(char *p);
 void comparar(char *maiorstring, char *menorString);
 
 int main(void) {
 
-    
+
     char String1[] = "Minha String";
-    char String2[] = "asdadsads";
+    char String2[] = "Str";
 
     char *pt1 = &String1[0];
     char *pt2 = &String2[0];

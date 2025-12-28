@@ -1,0 +1,10 @@
+/ Se o arquivo não terminar com \n, a última linha não foi contada
+    // (A menos que o arquivo esteja vazio, mas neste caso, contadorLinhas será 0)
+    if (contadorLinha > 0 || fgetc(arquivo) != EOF) {
+        // Se o arquivo tiver conteúdo e não terminar em \n, conta a última linha.
+        // A lógica aqui é um pouco mais complexa, mas geralmente você conta o '\n'
+        // e pode adicionar 1 se o arquivo não estiver vazio e não terminar em \n.
+        // A maneira mais simples é:
+        // fclose(arquivo);
+        // return contadorLinhas;
+    }
